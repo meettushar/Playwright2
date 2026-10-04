@@ -1,0 +1,26 @@
+[
+    {
+        "username": "test2811",
+        "password": "Admin@123",
+        "expected": "success",
+        "run": true
+    },
+    {
+        "username": "Jyo1307",
+        "password": "Admin@123",
+        "expected": "success",
+        "run": true
+    },
+    {
+        "username": "test1234",
+        "password": "Admin@125",
+        "expected": "error",
+        "run": true
+    },
+    {
+        "username": "test121",
+        "password": "Admin@125",
+        "expected": "error",
+        "run": false
+    }
+]
